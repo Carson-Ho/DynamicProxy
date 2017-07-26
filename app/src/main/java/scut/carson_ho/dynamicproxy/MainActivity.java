@@ -26,7 +26,11 @@ public class MainActivity extends AppCompatActivity {
         // 以上代购为小成代购Mac
 
         // 以下是代购为小何代购iPhone
+
+
         Buyer2 mBuyer2 = new Buyer2();
+
+
         Subject Buyer2_DynamicProxy = (Subject) DynamicProxy.newProxyInstance(mBuyer2);
         Buyer2_DynamicProxy.buybuybuy();
     }
